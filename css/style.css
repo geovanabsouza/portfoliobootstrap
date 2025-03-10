@@ -1,0 +1,44 @@
+/*Principais componentes do site*/
+
+body {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: azure;
+}
+header{
+    margin-top: 3%;
+}
+main {
+    margin-top: 10%;
+}
+section {
+    color: black;
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*NavBar*/
+
+.navbar{
+        padding: 1%;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: azure;  /* Cor de fundo do menu */
+        box-shadow: 0 4px 6px blueviolet;/* Sombra abaixo do menu */
+}
+
+
+.nav-link {
+    color: blueviolet;
+}
+
+/*Estruturas de letras*/
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
