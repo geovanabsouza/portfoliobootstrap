@@ -2,7 +2,6 @@
 
 body {
     margin-top: 10%;
-    margin-bottom: 10%;
     background-color: azure;
 }
 header{
@@ -27,13 +26,86 @@ section {
         top: 0;
         width: 100%;
         z-index: 1000;
-        background-color: azure;  /* Cor de fundo do menu */
+        background-color: gainsboro;  /* Cor de fundo do menu */
         box-shadow: 0 4px 6px blueviolet;/* Sombra abaixo do menu */
 }
 
+.navbar-brand {
+    color: black;
+}
 
 .nav-link {
     color: blueviolet;
+}
+
+.dropdown-menu {
+    width: 20%;
+    background-color: grey;
+}
+
+.dropdown-item {
+    width: 100%;
+    color: black;
+}
+
+/*Main*/
+
+.img1 {
+    width: 35%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+/*Section*/
+
+.primeira {
+    background-color: aquamarine;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.segunda {
+    background-color: azure;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.terceira {
+    background-color: aquamarine;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.footer {
+    background-color: darkgrey;
+    width: 100%;
+}
+/*Accordition*/
+
+.accordion {
+    width: 60%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.accordition-button {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+/*Card*/
+
+.card-group {
+    width: 100%;
+    padding: 5%;
+}
+
+.card {
+    margin-right: 5%;
 }
 
 /*Estruturas de letras*/
@@ -41,4 +113,16 @@ section {
 h1 {
     text-align: center;
     color: blueviolet;
+    padding: 3%;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    padding: 3%;
+}
+
+p {
+    text-align: center;
+    color: white;
 }

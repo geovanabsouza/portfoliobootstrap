@@ -11,7 +11,7 @@
 <header>
     <nav class="navbar">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Home</a>
+          <a class="navbar-brand" href="#">Geovana Souza</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -23,8 +23,14 @@
               <li class="nav-item">
                 <a class="nav-link" href="quali">Qualificações</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="projeto">Projetos</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link " href="contato" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Projetos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Site BRISSO</a></li>
+                  <li><a class="dropdown-item" href="#">Site Relações Familiares</a></li>
+                </ul>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link " href="contato" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -43,16 +49,19 @@
 </header>
 <body>
     <main>
-        <section>
 
-            <h1 id="bio">Biografia</h1>
+      <h1 id="bio">Biografia</h1>
 
-            <img src="..." class="img-thumbnail" alt="...">
+        <section class="primeira">
+
+            <img src="img/euu.jpeg" class="img1" alt="...">
         </section>
 
-        <section>
+        <h1 id="quali">Qualificações</h1>
 
-            <h1 id="quali">Qualificações</h1>
+        <section class="segunda">
+
+          
 
             <div class="accordion" id="accordionPanelsStayOpenExample">
                 <div class="accordion-item">
@@ -81,10 +90,10 @@
                 </div>
               </div>
         </section>
-    
-        <section>
 
-            <h1 id="projeto">Projetos</h1>
+        <h1 id="projeto">Projetos</h1>
+    
+        <section class="terceira">
 
             <div class="card-group">
                 <div class="card">
@@ -113,14 +122,17 @@
                 </div>
               </div>
         </section>
-    
-        <section>
-            <h1 id="contato">Contate-me</h1>
-        </section>
         
     </main>
-   <footer>
+
+   <footer class="footer">
+
     <script src="js/bootstrap.bundle.js"></script>
+
+    <h2 id="contato">Contate-me</h2>
+
+    <p> © Geovana Souza</p>
+    
    </footer>
 </body>
 </html>
